@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.header {
+    justify-content: space-around;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 4px solid black;
+    left: 0;
+    margin-bottom: 100px;
+    padding-top: 8px;
+    background-color: bisque;
+    font-weight: 600;
+}
+
+.h-list {
+    color: black;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* .lobby {
+    /* background-image: url(./Noel.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 400px; 
+    padding: 20px; */
+/* position: relative; */
+
+
+#form-login {
+    width: 350px;
+    height: 350px;
+    background-color: beige;
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 80px;
+}
+
+#form-login label {
+    /* color: white;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+#username {
+    padding: 10px;
+}
+
+/* #password {
+    padding: 10px;
+} */
+
+#email {
+    padding: 10px;
+}
+
+#phone {
+    padding: 10px;
+}
+
+.login-button {
+    background-color: bisque;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: solid 2.5px black;
+    font-weight: 550;
+    margin: 10px 0px 10px 0px;
+}
+
+.shop-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-content {
+    padding: 35px;
+    margin: 0px 50px 20px 50px;
+    border: 4px solid grey;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.shop {
+    background-color: beige;
+    border-radius: 10px;
+    border: 4px solid grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+.shop-title {
+    text-align: center;
+    color: black;
+    height: 50px;
+    padding: 20px;
+    font-style: italic;
+}
+
+.add-shop-button {
+    background-color: bisque;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 550;
+}
+
+.buy-shop-button {
+    background-color: beige;
+    color: black;
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: 550;
+}
+
+.event {
+    background-color: beige;
+    border: 4px solid grey;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.event-topic {
+    text-align: center;
+    font-style: italic;
+}
+
+.event-title {
+    border: 4px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px 300px 10px 300px;
+}
+
+.event-content {
+    padding: 35px;
+    border: 4px solid grey;
+    border-radius: 10px;
+    margin: 60px 500px 60px 100px;
+    background-color: white;
+}
+
+.tour-button {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 550;
+}
+
+.more {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+.more-title {
+    text-align: center;
+    font-style: italic;
+    background-color: brown;
+    border: 4px solid grey;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    margin: 10px 300px 10px 300px;
+}
+
+.more-content {
+    text-align: center;
+    font-size:xx-large;
+    border: 5px solid grey;
+    margin: 0px 600px 30px 600px;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.more-content h3 {
+    font-size:x-large;
+}
+
+  #snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
